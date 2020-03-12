@@ -27,6 +27,12 @@ if  self.end_with?("?")
   end
 
   def count_sentences
+<<<<<<< HEAD
 self.split(/[.!?]/).reject {|x| x.empty?}.size
+=======
+self.split(/\W+/)
+
+
+>>>>>>> eb958093e6a861e32467a08b52dadd2b45cc34e4
  end
 end
